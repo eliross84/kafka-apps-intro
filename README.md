@@ -11,7 +11,7 @@
 - Listing the contents of a topic: `.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list`
 - Listing a message within a topic: `.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic {insert name of topic here} --from-beginning`
 
-### My Unique commands from my practice:
+### My unique commands from my practice:
 1. `.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties`
 2. `.\bin\windows\kafka-server-start.bat .\config\server.properties`
 3. `.\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create --topic chiefs-messages`
